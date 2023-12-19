@@ -55,3 +55,6 @@
 // the request and response headers, as well as the form data.
 
 // Part Four: Explore the URL API
+
+const url = new URL("http://localhost:8000");
+console.log(url.href);
